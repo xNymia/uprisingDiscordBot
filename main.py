@@ -37,11 +37,8 @@ class botClient(commands.Bot):
     async def loadCogs(self) -> None:
         for filename in os.listdir(f"./cogs/."):
             if filename.endswith(".py"):
-                CURRENT_COGS.append(f"{filename[:-3]}")
-
-        for cog in CURRENT_COGS:
-            await self.load_extension(f'cogs.{cog}')
-            logHandler.info(f'Loaded Cog: {cog}')
+                await self.load_extension(f'cogs.{filename[:-3]}')
+                logHandler.info(f'Loaded Cog: {filename[:-3]}')
 
 
     async def adminLog(self, message: str) -> None:      
