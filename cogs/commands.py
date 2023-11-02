@@ -184,10 +184,10 @@ class botCommands(commands.Cog):
             if userDB:
                 discordID = self.bot.guilds[0].get_member(int(userDB['discordId']))
             else:
-                await self.bot.adminLog(f"{member['Name']} not registered")
+                await interaction.followup.send(f"{member['Name']} not registered")
                 continue
 
-            await self.bot.adminLog(f"{member['Name']} with {pvp:,d} PvP Fame and {pve:,d} PvE Fame - Discord User: {discordID.mention}")
+            await interaction.followup.send(f"{member['Name']} with {pvp:,d} PvP Fame and {pve:,d} PvE Fame - Discord User: {discordID.mention}")
             await discordID.add_roles(self.bot.guilds[0].get_role(1154086002277765171))
 
         await interaction.followup.send("Newbies Identified - Added Tag")
