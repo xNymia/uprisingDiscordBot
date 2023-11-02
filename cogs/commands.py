@@ -289,6 +289,10 @@ class botCommands(commands.Cog):
         await interaction.response.send_message(STATIC_ALBION_DATA['ZVZ_BUILDS_IMAGE'])
 
 
+
+
+
+
 async def setup(bot):
     await bot.add_cog(botCommands(bot))
 
