@@ -13,7 +13,7 @@ import dataframe_image as dfi
 STATIC_ALBION_DATA = {
     "uprisingGuildID" : "kEZ3m2YoR8OFHLSNRttjjw",
     "allianceID" : "0jtSqRJJTomBFZ6gR6oOhA",
-    "ZVZ_BUILDS_IMAGE" : "https://cdn.discordapp.com/attachments/1166384778761752597/1168251292351725710/ZvZ_Build_Kingmaker_2.png"
+    "ZVZ_BUILDS_IMAGE" : "https://media.discordapp.net/attachments/1166384778761752597/1169094432830804019/ZvZ_Build_Kingmaker_2.png"
 }
 DISCORD_MEMBERS_ROLE = 938924221554389014
 DISCORD_ALLIANCE_ROLE = 1162315056562847845

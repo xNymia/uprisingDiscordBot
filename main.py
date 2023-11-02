@@ -84,6 +84,7 @@ async def on_member_remove(member):
 @app_commands.choices(cog=[
     app_commands.Choice(name='Commands', value='commands'),
     app_commands.Choice(name='Tasks', value='tasks'),
+    app_commands.Choice(name='Events', value='events'),
 ])
 async def reload(interaction: discord.Interaction, cog: app_commands.Choice[str]) -> None:
 
