@@ -64,7 +64,7 @@ Now that you have been accepted there are a few steps you need to take:
 - Read the {interaction.guild.get_channel(938926115790131210).mention} again
 - Go to the {interaction.guild.get_channel(1163806135439065140).mention} channel and use the `/register` command
  - After registering you can change your discord handle to whatever you want
-- Join the alliance discord: https://discord.gg/4uwEBPBbEa
+- Join the alliance discord: https://discord.gg/4uwEBPBbEa and request permissions in the request channel
 - Start to participate in guild content!
 
         '''
